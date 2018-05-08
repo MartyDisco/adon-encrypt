@@ -2,7 +2,7 @@
 	"name": "adon-encrypt",
 	"version": "1.0.2",
 	"license": "MIT",
-	"author": "Martin PARENT <mparent@adon-immo.com>",
+	"author": "Martin PARENT <mparent@adon-immo.com> (https://adon-immo.com)",
 	"description": "A simple HMAC and authentication token generator wrapper class on Node built-in module crypto, promisified with bluebird",
 	"keywords": [
 		"simple",
@@ -13,6 +13,10 @@
 		"authentication",
 		"secure"
 	],
+	"repository" : {
+		"type" : "git",
+		"url" : "https://github.com/MartyDisco/adon-encrypt"
+	},
 	"main": "bin/encrypt.js",
 	"scripts": {
 		"transpile": "babel src/encrypt.mjs -o bin/encrypt.js",
