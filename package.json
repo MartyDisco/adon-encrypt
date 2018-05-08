@@ -15,7 +15,7 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/MartyDisco/adon-encrypt"
+		"url": "https://github.com/MartyDisco/adon-encrypt.git"
 	},
 	"main": "bin/encrypt.js",
 	"scripts": {
