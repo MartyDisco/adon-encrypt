@@ -1,0 +1,36 @@
+{
+	"name": "adon-encrypt",
+	"version": "1.0.2",
+	"license": "MIT",
+	"author": "Martin PARENT <mparent@adon-immo.com>",
+	"description": "A simple HMAC and authentication token generator wrapper class on Node built-in module crypto, promisified with bluebird",
+	"keywords": [
+		"simple",
+		"encrypt",
+		"hmac",
+		"token",
+		"user",
+		"authentication",
+		"secure"
+	],
+	"main": "bin/encrypt.js",
+	"scripts": {
+		"transpile": "babel src/encrypt.mjs -o bin/encrypt.js",
+		"lint": "eslint . --ext js, mjs, vue || true"
+	},
+	"dependencies": {
+		"bluebird": "^3.5.1"
+	},
+	"devDependencies": {
+		"babel-cli": "^6.26.0",
+		"babel-core": "^6.26.0",
+		"babel-plugin-add-module-exports": "^0.2.1",
+		"babel-preset-es2015": "^6.24.1",
+		"babel-preset-stage-2": "^6.24.1",
+		"eslint": "^4.18.1",
+		"eslint-config-airbnb-base": "^12.1.0",
+		"eslint-plugin-import": "^2.9.0",
+		"eslint-plugin-node": "^6.0.1",
+		"eslint-plugin-promise": "^3.7.0"
+	}
+}
