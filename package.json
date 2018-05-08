@@ -1,6 +1,6 @@
 {
 	"name": "adon-encrypt",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"license": "MIT",
 	"author": "Martin PARENT <mparent@adon-immo.com> (https://adon-immo.com)",
 	"description": "A simple HMAC and authentication token generator wrapper class on Node built-in module crypto, promisified with bluebird",
